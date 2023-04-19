@@ -40,3 +40,12 @@ public class ListaPokemon {
             }
         
     }
+
+    public Pokemon getPokemon(int index) {
+        if (index >= 0 && index < size) {
+            return pokemonList[index];
+        } else {
+            return null;
+        }
+    }
+}
