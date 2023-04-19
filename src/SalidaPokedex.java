@@ -1,7 +1,7 @@
+import java.util.Scanner;
 public class SalidaPokedex {
     public static void main(String[] args) throws Exception {
 
-    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ListaPokemon avistados = new ListaPokemon();
         ListaPokemon capturados = new ListaPokemon();
