@@ -15,10 +15,11 @@ public class ListaPokemon {
                 temp[i] = pokemonList[i];
             }
             pokemonList = temp;
-    }
+        }
         pokemonList[size] = pokemon;
         size++;
         System.out.println("El pokemon " + pokemon.getNombre() + " ha sido añadido a la lista.");
+    }
 
     public Pokemon removePokemon(String name) {
         for (int i = 0; i < size; i++) {
@@ -35,10 +36,9 @@ public class ListaPokemon {
     }
 
     public void mostrarPokemon() {
-            for (int i = 0; i < size; i++) {
-                System.out.println((i + 1) + ". " + pokemonList[i].toString());
-            }
-        
+        for (int i = 0; i < size; i++) {
+            System.out.println((i + 1) + ". " + pokemonList[i].toString());
+        }
     }
 
     public Pokemon getPokemon(int index) {
@@ -48,4 +48,7 @@ public class ListaPokemon {
             return null;
         }
     }
+
+
+
 }

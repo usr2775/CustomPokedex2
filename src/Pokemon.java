@@ -5,13 +5,16 @@ public class Pokemon {
     private double peso;
     private String descripcion;
 
-
     public Pokemon(String nombre, String tipo) {
         this.nombre = nombre;
         this.tipo = tipo;
         this.altura = altura;
         this.peso = peso;
         this.descripcion = descripcion;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -60,4 +63,5 @@ public class Pokemon {
                 ", descripcion='" + descripcion + '\'' +
                 '}';
     }
+
 }
