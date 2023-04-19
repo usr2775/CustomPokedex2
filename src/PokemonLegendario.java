@@ -14,5 +14,4 @@ public class PokemonLegendario extends Pokemon {
     public String toString() {
         return super.toString() + "\nLocalización: " + (localizacion == null ? "???" : localizacion);
     }
-    
 }
