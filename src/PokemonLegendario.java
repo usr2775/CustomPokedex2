@@ -9,5 +9,10 @@ public class PokemonLegendario extends Pokemon {
     public String getLocalizacion() {
         return localizacion;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nLocalización: " + (localizacion == null ? "???" : localizacion);
+    }
     
 }
